@@ -1,0 +1,25 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+  
+  .a, .b, .c, .d, .e{
+    flex: 1;
+    text-align: center;
+    padding: 7em;
+    width: 1em;
+    margin: 4em;
+    height: 1em;
+    padding-top: 10em;
+    margin-top: 5em;
+  }
+  
+  .a { background-color: lightgreen; }
+  .b { background-color: lightblue; }
+  .c { background-color: lightyellow; }
+  .d { background-color: lightcoral; }
+  .e { background-color: lightpink; }
